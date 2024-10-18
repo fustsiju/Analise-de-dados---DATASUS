@@ -94,8 +94,6 @@ dados['PARTO'] = dados['PARTO'].astype(float)
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 
-# Se preferir, você pode usar o seguinte para imprimir todas as colunas e um número limitado de linhas:
-# pd.set_option('display.max_rows', 10)  # Substitua 10 pelo número desejado de linhas
 
 for i in range(1, 3):
   print(dados.iloc[i])
